@@ -1,0 +1,238 @@
+/*
+	Please sign your name in the comments above each section you have worked on
+*/
+
+/*external stylesheets and links for import*/
+
+
+/*general*/
+
+html, body{
+	margin: 0 auto;
+	padding: 0;
+	font-size:1em;
+	font-family: 'Bubblegum Sans', cursive;
+	background-color:#336666;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width:90%;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	background-color:#FFFF99;
+}
+
+body{
+	
+}
+
+h1, h2, h3{
+
+}
+
+p{
+	
+}
+
+#vid1{
+	display:inline;
+	position:relative;
+	grid-column:2/4;
+	text-align:center;
+}
+
+
+/*links*/
+
+a{
+	text-decoration: none;
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+a:visited{
+
+}
+
+
+
+/*navigation and menus*/
+
+nav{
+	grid-column:1/4;
+	border-bottom:1px solid gray;
+}
+
+.navbar{
+
+}
+
+.navbar a:link{
+	color:black;
+}
+
+.navbar a:visited{
+	color:black;
+}
+
+.navbar ul{
+	margin-top:3%;
+	margin-bottom:3%;
+	display:block;
+	list-style-type: none;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.navbar ul li{
+	font-size:1.5em;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:2%;
+	padding:1%;
+	border-radius:1em;
+	width: 8%;
+}
+
+.navbar ul li:nth-child(1){
+	background-color:#339999;
+	margin-top:3%;
+}
+
+.navbar ul li:nth-child(2){
+	background-color:#801D15;
+
+}
+
+.navbar ul li:nth-child(3){
+	background-color:#653399;
+	margin-top:3%;
+}
+
+.navbar ul li:nth-child(4){
+	padding-right:8%;
+
+}
+
+.navbar ul li:nth-child(4) img {
+	width:200%;
+	border-radius:50%;
+}
+
+
+.navbar ul li:nth-child(5){
+	background-color:#006632;
+	margin-top:2%;
+}
+
+.navbar ul li:nth-child(6){
+	background-color:#CC9933;
+}
+
+.navbar ul li:nth-child(7){
+	background-color:#CC3366;
+	margin-top:3%;
+}
+
+/*headers*/
+
+
+header{
+	text-align:center;
+	grid-column:1/4;
+}
+
+/*banners*/
+
+
+
+/*text content, e.g. articles*/
+
+.post{}
+
+
+
+.content-wrapper{
+	grid-column:1/4;
+}
+
+aside .toggle{
+	grid-column:4/4;
+}
+
+
+/*footers*/
+
+footer{
+	grid-column:1/4;
+	color:gray;
+	text-align:center;
+}
+
+/*images and icons*/
+
+.img-sm{
+	
+}
+
+.im-med{
+	
+}
+
+.im-lg{
+	
+}
+
+.im-left{
+	
+}
+
+.im-right{
+	
+}
+
+.icon-sm{
+
+}
+
+.icon-med{
+
+}
+
+.icon-lg{
+
+}
+
+
+/*media queries for RSS*/
+
+@media only screen and (max-width: 1090px) {
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 720px){
+
+
+
+
+
+
+}
+
+
+
